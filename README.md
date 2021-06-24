@@ -11,8 +11,7 @@
 
  - `git clone https://gitlab.com/jvenerosy/test-bulma.git`
  - `npm install`
- 
-**Lancement :** à vous de trouver
+ - `npm start`
 
 ----
 
@@ -37,5 +36,17 @@ Pousser le code sur le repo git de votre choix.
 **Durée du test:** 3h
 
 **Durée maximale autorisée:** 1 jour
+
+# Rendu du test
+
+Le test a été effectué en 3h30 environ.
+Les spécifications du design ont été respectées, mais les textes ont étés justifiés pour une meilleure clarté. 
+De plus, le '/par mois, toute votre vie et même au delà' présent au niveau du forfait whaou a été remplacé par "*par mois, toute votre vie et même au delà" pour correspondre aux autres détails des offres.
+
+Aucune animation n'a été mise en place pour les boutons, mais un jeu d'opacité sur les "boxes" correspondantes pourrait être envisagé.
+
+Cordialement,
+
+Vivien NOEL
 
 Merci de préciser le temps passé sur le test
