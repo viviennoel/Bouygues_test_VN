@@ -35,6 +35,8 @@ Vivien NOEL
  - `npm install`
  - `npm start`
 
+Rendez-vous sur http://localhost:3000/ pour voir le résultat.
+
 ----
 
 **Attendu :**
