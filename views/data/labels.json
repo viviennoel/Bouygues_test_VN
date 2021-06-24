@@ -1,0 +1,85 @@
+{
+    "title": "Bienvenue sur le test Bulma / Pug",
+    "description": "Test technique visant à comprendre la logique d'utilisation d'un framework CSS",
+    "navbars": [
+        {
+            "content": "Accueil",
+            "title": "Lien vers l'accueil",
+            "href": "/accueil"
+        },
+        {
+            "content": "Portfolio",
+            "title": "Lien vers mon super portfolio",
+            "href": "/portfolio"
+        },
+        {
+            "content": "Contact",
+            "title": "Lien la page contact",
+            "href": "/contact"
+        }
+    ],
+    "users": [
+        {
+            "content": "S'enregistrer",
+            "title": "Signup",
+            "href": "/signup",
+            "style": "button is-light mr-4"
+        },
+        {
+            "content": "Se connecter",
+            "title": "Login",
+            "href": "/login",
+            "style": "button is-primary"
+        }
+    ],
+    "socials": [
+        {
+            "title": "Instagram",
+            "text": "Core rouge sur mon profil"
+        },
+        {
+            "title": "Telegram",
+            "text": "Je rigole, je suis pas vieux à ce point, bien que telegram ne soit pas forcément destiné uniquement aux personnes agées"
+        },
+        {
+            "title": "Twitter",
+            "text": "J'y vais rarement mais why not"
+        }
+    ],
+    "products": [
+        {
+            "mea": "https://res.cloudinary.com/viviennoel07/image/upload/v1617370513/propre_vzkts4.jpg",
+            "tag": "nouveauté",
+            "title": "Nouvel iTelephone 13",
+            "price": "199€99",
+            "mention": "*uniquement pour les clients n'ayant jamais eu de téléphone de leur vie",
+            "cta": {
+                "href": "#",
+                "txt": "J'en profite"
+            }
+        },
+        {
+            "mea": "https://res.cloudinary.com/viviennoel07/image/upload/v1617370513/pro_d8etrg.jpg",
+            "tag": "dernier jours",
+            "title": "Opami G-Trouve 4",
+            "price": "99€99",
+            "mention": "",
+            "cta": {
+                "href": "#",
+                "txt": "J'en profite"
+            }
+        },
+        {
+            "mea": "https://res.cloudinary.com/viviennoel07/image/upload/v1617370512/react_ot6jtq.jpg",
+            "tag": "offre spéciale",
+            "title": "Forfait Waouh",
+            "price": "19€",
+            "mention": "*par mois, toute votre vie et même au delà",
+            "cta": {
+                "href": "#",
+                "txt": "J'en profite"
+            }
+        }
+
+    ]
+}

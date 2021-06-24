@@ -1,0 +1,22 @@
+.section.is-flex.is-justify-content-space-between.pt-2.is-hidden-mobile
+    .is-flex
+        for navbar in navbars
+            a(href=navbar.href title=navbar.title class="pr-4 m-auto menu has-text-grey-dark")= navbar.content
+    .is-flex
+        for user in users
+            a(href=user.href title=user.title class=user.style)= user.content
+
+.section.is-medium.is-justify-content-space-between.pt-2.is-hidden-tablet   
+    nav(role="navigation" aria-label="main navigation")
+        a(role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample")
+            span(aria-hidden="true")
+            span(aria-hidden="true")
+            span(aria-hidden="true")
+
+        .navbar-menu#navbarBasicExample
+            for navbar in navbars
+                a(href=navbar.href title=navbar.title class="navbar-item has-text-grey-dark")= navbar.content
+
+            .navbar-item
+                for user in users
+                    a(href=user.href title=user.title class=user.style)= user.content

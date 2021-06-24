@@ -1,0 +1,19 @@
+.container.pt-1.has-text-justified
+    section.section.pt-0
+        h1.title.is-3= title
+        h2.subtitle.is-4= description
+    section.section 
+        .columns
+            for social in socials 
+                .column.is-4.hero
+                    .box.hero-body.p-mobile-0
+                        p.is-size-2.mb-3.has-text-grey-dark= social.title
+                        p.text= social.text
+    section.section
+        .block.is-hidden-mobile
+            +cover(products[0], 'lame')
+        .block
+            .columns
+                for product in products 
+                    .column.is-4.hero
+                        +cover(product, 'bp')

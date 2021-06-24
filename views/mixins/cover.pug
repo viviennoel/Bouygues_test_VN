@@ -1,0 +1,20 @@
+mixin cover(item, type)
+    .is-4.box.hero-body
+        .columns
+            if type === 'lame'
+                .column.m-auto.is-hidden-mobile
+                    img(src=item.mea title=item.title class="image")
+            else 
+                .column.m-auto.is-one-third.is-hidden-touch
+                    img(src=item.mea title=item.title class="image")
+
+            .column
+                p(title=item.tag class="button is-danger is-rounded mb-2 is-size-7")= item.tag
+                if type === 'lame'
+                    h1.is-size-2.has-text-grey-dark.pb-4= item.title
+                    h2.is-size-2.has-text-primary.pb-4= item.price
+                else 
+                    h1.is-size-5.has-text-grey-dark.pb-3= item.title
+                    h2.is-size-5.has-text-primary.pb-3= item.price
+                p.is-size-7= item.mention
+        a(href=item.cta.href title="subsribe" class="button is-primary")= item.cta.txt
