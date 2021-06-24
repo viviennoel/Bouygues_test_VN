@@ -10,7 +10,7 @@ Aucune animation n'a été mise en place pour les boutons, mais un jeu d'opacit�
  
  **Installation :** 
 
- - `git clone https://gitlab.com/jvenerosy/test-bulma.git`
+ - `git clone https://github.com/viviennoel/Bouygues_test_VN.git`
  - `npm install`
  - `npm start`
 
