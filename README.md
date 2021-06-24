@@ -14,6 +14,8 @@ Aucune animation n'a été mise en place pour les boutons, mais un jeu d'opacit�
  - `npm install`
  - `npm start`
 
+Rendez-vous sur http://localhost:3000/ pour voir le résultat.
+
 ----
 
 Cordialement,
@@ -34,8 +36,6 @@ Vivien NOEL
  - `git clone https://gitlab.com/jvenerosy/test-bulma.git`
  - `npm install`
  - `npm start`
-
-Rendez-vous sur http://localhost:3000/ pour voir le résultat.
 
 ----
 
